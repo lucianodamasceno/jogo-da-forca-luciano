@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da forca</title>
+  <link rel="stylesheet" href="../styles/index.css">
+  <script type="text/javascript" src="../scripts/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+  <div class="container_app">
+    <header class="header">
+      JOGO DA FORCA
+    </header>
+    <div id="div-forca">
+      <div id="div-img_forca">
+        <img id="img-forca" src="../images/forca 2.png"></img>
+      </div>
+      <div id="div-img-forca_parte1">
+        <img id="img-forca_parte1" class="man hide" src="../images/parte1.png"></img>
+      </div>
+      <div id="div-img-forca_parte2">
+        <img id="img-forca_parte2" class="man hide" src="../images/parte2.png"></img>
+      </div>
+      <div id="div-img-forca_parte3">
+        <img id="img-forca_parte3" class="man hide" src="../images/parte3.png"></img>
+      </div>
+      <div id="div-img-forca_parte4">
+        <img id="img-forca_parte4" class="man hide" src="../images/parte4.png"></img>
+      </div>
+      <div id="div-img-forca_parte5">
+        <img id="img-forca_parte5" class="man hide" src="../images/parte5.png"></img>
+      </div>
+      <div id="div-img-forca_parte6">
+        <img id="img-forca_parte6" class="man hide" src="../images/parte6.png"></img>
+      </div>
+    </div>
+    <div class="div-dica">
+      <label id="dica" for="">Dica:<span id="span-dica"></span> </label>
+    </div>
+    <div id="div-palavra">
+    </div>
+
+    <div id="keyword">
+
+      <div id="keyword-line-1" class="keyword-line">
+        <div id="button-a" class="div-button">
+          <button type="button" class="button-letra">Q</button>
+        </div>
+        <div id="button-w" class="div-button">
+          <button type="button" class="button-letra">W</button>
+        </div>
+        <div id="button-e" class="div-button">
+          <button type="button" class="button-letra">E</button>
+        </div>
+        <div id="button-r" class="div-button">
+          <button type="button" class="button-letra">R</button>
+        </div>
+        <div id="button-t" class="div-button">
+          <button type="button" class="button-letra">T</button>
+        </div>
+        <div id="button-y" class="div-button">
+          <button type="button" class="button-letra">Y</button>
+        </div>
+        <div id="button-u" class="div-button">
+          <button type="button" class="button-letra">U</button>
+        </div>
+        <div id="button-i" class="div-button">
+          <button type="button" class="button-letra">I</button>
+        </div>
+        <div id="button-o" class="div-button">
+          <button type="button" class="button-letra">O</button>
+        </div>
+        <div id="button-p" class="div-button">
+          <button type="button" class="button-letra">P</button>
+        </div>
+      </div>
+
+      <div id="keyword-line-2" class="keyword-line">
+
+        <div id="button-a" class="div-button">
+          <button type="button" class="button-letra">A</button>
+        </div>
+        <div id="button-s" class="div-button">
+          <button type="button" class="button-letra">S</button>
+        </div>
+        <div id="button-d" class="div-button">
+          <button type="button" class="button-letra">D</button>
+        </div>
+        <div id="button-f" class="div-button">
+          <button type="button" class="button-letra">F</button>
+        </div>
+        <div id="button-g" class="div-button">
+          <button type="button" class="button-letra">G</button>
+        </div>
+        <div id="button-h" class="div-button">
+          <button type="button" class="button-letra">H</button>
+        </div>
+        <div id="button-j" class="div-button">
+          <button type="button" class="button-letra">J</button>
+        </div>
+        <div id="button-k" class="div-button">
+          <button type="button" class="button-letra">K</button>
+        </div>
+        <div id="button-l" class="div-button">
+          <button type="button" class="button-letra">L</button>
+        </div>
+        <div id="button-ç" class="div-button">
+          <button type="button" class="button-letra">Ç</button>
+        </div>
+      </div>
+
+      <div id="keyword-line-3" class="keyword-line">
+        <div id="button-z" class="div-button">
+          <button type="button" class="button-letra">Z</button>
+        </div>
+        <div id="button-x" class="div-button">
+          <button type="button" class="button-letra">X</button>
+        </div>
+        <div id="button-c" class="div-button">
+          <button type="button" class="button-letra">C</button>
+        </div>
+        <div id="button-v" class="div-button">
+          <button type="button" class="button-letra">V</button>
+        </div>
+        <div id="button-b" class="div-button">
+          <button type="button" class="button-letra">B</button>
+        </div>
+        <div id="button-n" class="div-button">
+          <button type="button" class="button-letra">N</button>
+        </div>
+        <div id="button-m" class="div-button">
+          <button type="button" class="button-letra">M</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="../scripts/index.js"></script>
+</body>
+
+</html>
